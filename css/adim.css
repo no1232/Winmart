@@ -1,0 +1,85 @@
+h3{
+    font-size: 1.1rem;
+    text-align: center;
+    color: var(--background-color);
+    margin: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.headeradim{
+
+}
+.formcontent{
+    padding: 20px 0px;
+}
+.formcontent label{
+    color: red;
+    margin-left: 15%;
+}
+.formcontent input[type="text"]{
+    width: 70%;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin: 10px 15%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.formcontent .btn input[type="submit"],
+.formcontent .btn input[type="reset"],
+.formcontent .btn input[type="button"]{
+    width: 150px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background: none;
+    color: red;
+    margin: 10px;
+    cursor: pointer;
+}
+.kd{
+    background-color: var(--background-color);
+    color: white;
+}
+.formcontent .btn input[type="submit"]:hover,
+.formcontent .btn input[type="reset"]:hover,
+.formcontent .btn input[type="button"]:hover {
+    background-color: var(--background-color);
+    color: yellow;
+    transition: 1s ease-in-out;
+}
+.formdanhsachloai table{
+    width: 100%;
+    border-collapse:collapse ;
+   
+}
+.formdanhsachloai table th{
+    background-color: #e4133c;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.formdanhsachloai table td{
+    padding: 10px 20px;
+    border: 1px solid #db3254;
+}
+.formdanhsachloai table th:nth-child(1){
+    width: 10%;
+    padding: 20px;
+}
+.formdanhsachloai table th:nth-child(2){
+    width: 30%;
+    padding: 20px;
+}
+.formdanhsachloai table th:nth-child(3){
+    width: 40%;
+    padding: 20px;
+}
+.formdanhsachloai table th:nth-child(4){
+    width: 20%;
+    padding: 20px;
+}
